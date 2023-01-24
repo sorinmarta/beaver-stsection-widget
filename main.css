@@ -1,18 +1,14 @@
-.sm-stsection-wrap{
-    display:flex;
-    flex-direction: row;
-}
-
 .sm-stsection-column{
-    padding:0;
-    margin:0;
+    padding:30px 60px;
     font-family: Roboto, sans-serif;
     color: #262626;
-}
-
-.sm-stsection-column:first-child{
-    flex:60;
-    padding:50px;
+    border: 2px solid #262626;
+    float: left;
+    width:40%;
+    z-index: 999;
+    margin: 40px -50px 0 50px;
+    position: relative;
+    background-color: #F7F8F9;
 }
 
 .sm-stsection-heading{
@@ -67,4 +63,11 @@
 .sm-stsection-pic{
     max-width: 467px;
     max-height: 673px;
+    border: 2px solid #262626;
+    z-index: -999;
+    position:relative;
+}
+
+.sm-stsection-clearfix{
+    clear:both;
 }
